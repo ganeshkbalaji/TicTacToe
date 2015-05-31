@@ -1,0 +1,23 @@
+#game {
+  overflow: auto;
+  width: 300px
+  height: 300px;
+  border: 1px solid #ddd;
+  background: blue;
+  padding: 10px;
+}
+#game div {
+  clear: both;
+}
+#game button {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px 10px;
+  margin: 0 auto;
+}
+#gameDisplay {
+  padding: 20px 10px;
+  font-size: 24px;
+}
