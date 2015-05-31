@@ -78,11 +78,11 @@ function isDraw(squares) {
 }
 
 function main() {
-  var squares = document.querySelectorAll("#game button");
+  var squares = document.querySelectorAll(".game button");
   var players = ["X", "O"];
   var currentTurn = 0;
   var isGameOver = false;
-  var display = new Display(document.querySelector("#gameDisplay"));
+  var display = new Display(document.querySelector(".gameDisplay"));
 
   display.setMessage("Player 'X' begins");
 
